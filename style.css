@@ -1,0 +1,113 @@
+#topnavigationcontainer {
+    z-index: 1;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7px;
+    border-top: 1px solid;
+    
+}
+
+
+
+.navbar-default .navbar-text {
+
+          color: #32DBC6;
+             }
+
+.navbar {
+          color:black;
+          border-color: #425766;
+          border:1px solid;
+          height: 5px;
+        }
+
+.navbar-default .navbar-brand {
+
+    color: rgb(79, 123, 245);
+    text-align: left;
+
+            }
+
+.navbar-nav .navbar-center > li  {
+    position: absolute; 
+    left: 50%; 
+    transform: translatex(-50%); 
+}
+
+.navbar-default .navbar-nav > li > a {
+
+                  color: rgb(151, 39, 255);
+                font-family: 'Cardo', cursive;
+                 font-size:17px;
+                }
+
+#navbrand {
+  font-family: 'Satisfy', cursive;
+  font-size:30px;
+  }
+
+#searchbar {
+    size: 5px;
+    flex:1;
+    display: flex;
+    width: 12%;
+    padding-left: 0%;
+}
+
+
+
+#icons {
+    font-size:18.5px;
+}
+
+#row1 {
+    border-style: solid;
+    border-color: black;
+    border:"1";
+}
+
+#footer {
+    text-align: center;
+}
+
+
+#mainsectioncontainer {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    display: flex;
+    padding-left: 150px;
+    padding-right: 100px;
+}
+
+#mainindexpagecontentcontainer {
+        padding: 5px 30px;
+}
+
+
+
+
+#categories {
+    text-align: center;
+    glyph-orientation-horizontal: inherit
+
+}
+
+#projectDetails{
+    border-bottom: 5px solid black;
+}
+
+.flex-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.flex-container > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
